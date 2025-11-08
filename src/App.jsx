@@ -1,8 +1,7 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
-import Showcase from './components/Showcase';
-import Footer from './components/Footer';
+import CTA from './components/CTA';
 
 export default function App() {
   return (
@@ -11,9 +10,8 @@ export default function App() {
       <main>
         <Hero />
         <Services />
-        <Showcase />
+        <CTA />
       </main>
-      <Footer />
     </div>
   );
 }
